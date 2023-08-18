@@ -1,2 +1,3 @@
-let a = Math.floor(Math.random() * 3)
-console.log(a)
+let g1 = document.querySelector("#one")
+let g2 = document.querySelector("#two")
+let g3 = document.querySelector("#three")
