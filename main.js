@@ -4,6 +4,7 @@ let g3 = document.querySelector("#three")
 
 let btn = document.querySelector("#btn")
 let dall = document.querySelector("#dall")
+let box = document.querySelector("#box")
 
 
 btn.addEventListener("click", () => {
@@ -54,7 +55,16 @@ let remove = () => {
 let rn = () => {
   let numberGen = Math.floor(Math.random() * 3)
 
-  console.log(numberGen)
+  setTimeout(() => {
+
+    box.addEventListener("click", (e) => {
+
+
+      console.log(e.target.alt)
+    })
+
+
+  }, 2000)
 
 
 
