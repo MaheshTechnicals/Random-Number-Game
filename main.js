@@ -59,8 +59,20 @@ let rn = () => {
 
     box.addEventListener("click", (e) => {
 
+      if (Number(e.target.alt) == numberGen) {
+        alert("true")
+        location.reload()
+      }
+      else {
+        alert("false")
+        location.reload()
+      }
 
-      console.log(e.target.alt)
+
+
+
+
+
     })
 
 
