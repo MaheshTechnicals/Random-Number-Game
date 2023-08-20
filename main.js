@@ -3,11 +3,13 @@ let g2 = document.querySelector("#two")
 let g3 = document.querySelector("#three")
 
 let btn = document.querySelector("#btn")
+let dall = document.querySelector("#dall")
 
 
 btn.addEventListener("click", () => {
 
   animateGlass()
+  remove()
 
 })
 
@@ -30,5 +32,16 @@ let animateGlass = () => {
     x: -240,
     duration: 0.3,
     repeat: 5,
+  })
+}
+
+
+let remove = () => {
+  gsap.to(dall, {
+    rotate: -360,
+    repeat: 4,
+    duration: 0.3,
+    display: "none",
+
   })
 }

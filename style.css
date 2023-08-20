@@ -33,6 +33,15 @@ img {
 
 }
 
+#dall {
+  font-size: 60px;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 50%;
+
+
+}
+
 
 #btn {
   padding: 10px 20px;
