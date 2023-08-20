@@ -10,6 +10,7 @@ btn.addEventListener("click", () => {
 
   animateGlass()
   remove()
+  rn()
 
 })
 
@@ -46,5 +47,17 @@ let remove = () => {
   })
 
   btn.style.display = "none"
+
+}
+
+
+let rn = () => {
+  let numberGen = Math.floor(Math.random() * 3)
+
+  console.log(numberGen)
+
+
+
+
 
 }
