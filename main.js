@@ -40,9 +40,9 @@ let animateGlass = () => {
 
 let remove = () => {
   gsap.to(dall, {
-    rotate: -360,
-    repeat: 4,
-    duration: 0.3,
+    transform: "scaleX(-1) ",
+    repeat: 1,
+    duration: 1,
     display: "none",
 
   })
