@@ -44,4 +44,7 @@ let remove = () => {
     display: "none",
 
   })
+
+  btn.style.display = "none"
+
 }
