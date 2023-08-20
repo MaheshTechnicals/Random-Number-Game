@@ -29,6 +29,7 @@ h2 {
 img {
   height: 150px;
   margin: 10px;
+  rotate: 180deg;
 
 }
 
